@@ -2,22 +2,16 @@
 
 This is a Kanban board made with Flask, HTML, CSS, JavaScript and SQL. Sign up to manage your tasks and projects effectively, and collaborate with others across multiple board for a more organized workflow.
 
-[Link to deployed version](https://kanban-board-m9ne.onrender.com/)
-
-You can test the deployed version with the following credentials:
-Username: test
-Password: test
-
 ## Installation
 ```bash
     python3 -m venv venv
     venv\Scripts\activate.bat
     pip3 install -r requirements.txt
-    python3 app.py
+    python app.py
 ```
     
 - **Initialize the DB**: `flask --app flaskr init-db`
-- **Run:** `flask --app flaskr --debug run` or `python app.py`
+- **Run:** `python app.py`
   
 ## Functionality
 - **Sign in to your Kanban board**: to access and manage your boards, or register with a unique username and password to access the platform
